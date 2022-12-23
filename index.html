@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="mainForm">
+        <div class="formBox">
+            <form action="get">
+                <div class="container">
+                    <div class="partColor">
+                        <label >R</label>
+                    </div>
+                    <div>
+                        <input type="text" id="colorR">
+                    </div>
+                    <div class="partColor">
+                        <label>G</label>
+                    </div>
+                    <div>
+                        <input type="text" id="colorG">
+                    </div>
+                    <div class="partColor">
+                        <label>B</label>
+                    </div>
+                    <div>
+                        <input type="text" id="colorB">
+                    </div>
+                </div>
+            </form>
+            <button id="buttonColor">Add color</button>
+        </div>
+
+        <div id="containerArchiveColor">
+            
+        </div>
+    </div>
+
+    <div class="mainForm">
+        <p class="txt">All quations:</p>
+        <div id="containerQuations">
+
+        </div>
+        <hr>
+        <p class="txt">Add new quation:</p>
+        <form action="get">
+            <div class="quation">
+                <label>Quation:</label>
+                <input type="text" id="quationId">
+            </div>
+            <div class="corAnswer">
+                <label>Correct answer:</label>
+                <input type="text" id="corAnswerId">
+            </div>
+            <div class="wrAnswer">
+                <label>Wrong answer:</label>
+                <input type="text" id="wrAnswerId">
+            </div>
+        </form>
+        <button id="addQuation">Add</button>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>

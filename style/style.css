@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*-------------4-------------*/
+
+.mainForm{
+    max-width: 800px;
+    background-color: beige;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+.partColor{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+#colorR, #colorG, #colorB{
+    width: 40px;
+    height: 20px;
+    text-align: center;
+}
+
+#buttonColor{
+    width: 180px;
+    margin-top: 5px;
+}
+.formBox{
+    text-align: center;
+}
+
+/*-------------5-------------*/
+label{
+    display: inline-block;
+    width: 120px;
+}
+
+.quation>input, .corAnswer>input, .wrAnswer>input{
+    width: 616px;
+}
+
+.quation, .corAnswer, .wrAnswer, .txt{
+    margin: 10px 0px;
+}
+
+.txt{
+    font-weight: bolder;
+}
+
+#addQuation{
+    width: 740px;
+}
